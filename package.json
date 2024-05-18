@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx ./src/drizzle/migrate.ts"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.3",
+    "drizzle-orm": "^0.30.10",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.21.2",
+    "tsx": "^4.7.1"
+  }
+}
